@@ -2,9 +2,11 @@
   border: 3px solid black;
   margin: 150px;
   padding: 10px;
+  background-color: aqua;
 }
 .inner-box {
   border: 3px solid black;
+  background-color: rgb(58, 68, 68);
   margin: 10px;
   gap: 10px;
   display: grid;
@@ -13,6 +15,21 @@
 }
 .sub-box {
   border: 3px solid black;
+  background-color: rgb(0, 0, 0);
   padding: 10px;
   height: 120px;
+}
+@media only screen and (max-width: 500px) {
+  .outer-box {
+    border: 3px solid black;
+    margin: 150px;
+    padding: 10px;
+    background-color: aqua;
+  }
+  .sub-box {
+    border: 3px solid black;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    height: 120px;
+  }
 }
